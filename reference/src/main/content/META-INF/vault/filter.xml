@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/community" mode="merge"/>
+    <filter root="/content/sites/communities"/>
+    <filter root="/etc/community/reference"/>
+    <filter root="/etc/tags/reference" mode="merge"/>
+</workspaceFilter>

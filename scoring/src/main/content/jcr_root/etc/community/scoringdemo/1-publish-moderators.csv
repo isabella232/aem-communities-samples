@@ -1,0 +1,5 @@
+# Title: Install Community Members,,,,,,,,,
+# Description: This option configures the Member profiles and groups for this demonstration site,,,,,,,,,
+# The following lines are creating new groups,,,,,,,,,
+SlingPost,/libs/granite/security/post/authorizables.html,authorizableId,scoring-privileged-members,./profile/givenName,Scoring Privileged Members,aboutMe,Privileged Members for AEM Communities Scoring Site,createGroup,1
+GroupMembers,scoring-privileged-members,addMembers,aaron.mcdonald@mailinator.com,,,,,,

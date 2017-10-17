@@ -1,0 +1,9 @@
+# Title: Install Community Site,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Description: This option configures the Community Site for the Enablement demo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Making room for the future Community Site,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SlingDelete,/content/sites/enablement,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SiteContext,enablement,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# The following lines are creating new Community Sites,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Site,/content.social.json,name,AEM Enablement,jcr:description,Enablement based community experience,dns,communities.geometrixx.com,urlName,enablement,blueprint,/etc/community/templates/sites/reference/reference-enablement-site ,siteCloudConfig,,theme,/etc/designs/community/sitethemes/bootstrap-spacelab/clientlibs ,allowUserRegistration,FALSE,allowAnonymousAccess,FALSE,allowPrivateMessaging,FALSE,allowFacebook,FALSE,allowTwitter,FALSE,moderators,/social/authors/aaron.mcdonald@mailinator.com,moderateContent,FALSE,tagNameSpaces,/etc/tags/aem,groupEnablementManagers,/social/authors/jason.werner@dodgit.com ,groupAdmin,/social/authors/aaron.mcdonald@mailinator.com,createGroupPermission,COMMUNITY_GROUP_ADMINISTRATORS ,allow_captcha,TRUE,baseLanguage,en,allowMachineTranslation,TRUE,translationProviderConfig,/etc/cloudservices/msft-translation/msft_trial,translationProvider,microsoft,commonStoreLanguage,nc,availableLanguages,en,availableLanguages,fr,availableLanguages,de,availableLanguages,es,persistTranslation,TRUE,translatePageOrSection,TRANSLATE_SELECTION,pagethumbnail,aem.png,macOrgId,5584D36B545258440A4C98A7@AdobeOrg
+# Pausing 20 seconds,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sleep,20000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
